@@ -1,0 +1,33 @@
+{
+  "updated_at_beijing": "2026-10-27T20:41:48.750098+08:00",
+  "submission_folder": "/root/autodl-tmp/编程作业二_待提交_人工检查",
+  "report_path": "/root/autodl-tmp/编程作业二_待提交_人工检查/实验报告.pdf",
+  "pdf_pages": 10,
+  "old_pdf_sha256": "4d5453b88e2c5f262a101be2f357618f9905207229ae12ff0a62e50128a86452",
+  "new_pdf_sha256": "2702d3ea3aeb63e156ed6f16e037866b42b175bac9ca814989048e251ccd8637",
+  "old_pdf_replaced": true,
+  "submitted_code_unchanged": true,
+  "referenced_local_code_files": [
+    "src/model.py"
+  ],
+  "unsubmitted_file_references_removed": true,
+  "submission_files": [
+    "README.md",
+    "requirements.txt",
+    "src/__init__.py",
+    "src/data.py",
+    "src/generate.py",
+    "src/large_demo.py",
+    "src/model.py",
+    "src/train.py",
+    "实验报告.pdf"
+  ],
+  "source_code_sha256": {
+    "src/__init__.py": "93ae0710fafa02e8635b695aeea3182c5039994e63e804454c8d5408ebb97e1a",
+    "src/data.py": "ae0cd255a829aeef77d02b81ede1afe115f6a929f88e14e1adea3285e9f34df7",
+    "src/generate.py": "b0e2ab0449985f7de001c64ec82a1202118017588d6881edff750f88c9a42bde",
+    "src/large_demo.py": "f146b3b74b153184b937cd73ca46e7b47fbb77b6af34b245af0f98403b62fd5b",
+    "src/model.py": "a30d7d0777eb79b6ee19faeec3906fc636d97bd177ab6066c413133f6927ba56",
+    "src/train.py": "0bf572e17e99aab2ad3f7f16c7b99724b3c2ef7a31ad3d41b667f430ce4e4122"
+  }
+}

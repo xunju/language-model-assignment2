@@ -1,0 +1,500 @@
+{
+  "total": 3208960,
+  "trainable": 3208960,
+  "groups": {
+    "token_embedding": 16640,
+    "position_embedding": 32768,
+    "blocks": 3159040,
+    "final_norm": 512
+  },
+  "tensors": [
+    {
+      "name": "token_embedding.weight",
+      "shape": [
+        65,
+        256
+      ],
+      "count": 16640,
+      "trainable": true,
+      "aliases": [
+        "lm_head.weight"
+      ]
+    },
+    {
+      "name": "position_embedding.weight",
+      "shape": [
+        128,
+        256
+      ],
+      "count": 32768,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_attention.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_attention.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.qkv.weight",
+      "shape": [
+        768,
+        256
+      ],
+      "count": 196608,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.qkv.bias",
+      "shape": [
+        768
+      ],
+      "count": 768,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.output.weight",
+      "shape": [
+        256,
+        256
+      ],
+      "count": 65536,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.output.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_mlp.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_mlp.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.expand.weight",
+      "shape": [
+        1024,
+        256
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.expand.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.contract.weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.contract.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_attention.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_attention.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.qkv.weight",
+      "shape": [
+        768,
+        256
+      ],
+      "count": 196608,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.qkv.bias",
+      "shape": [
+        768
+      ],
+      "count": 768,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.output.weight",
+      "shape": [
+        256,
+        256
+      ],
+      "count": 65536,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.output.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_mlp.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_mlp.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.expand.weight",
+      "shape": [
+        1024,
+        256
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.expand.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.contract.weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.contract.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_attention.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_attention.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.qkv.weight",
+      "shape": [
+        768,
+        256
+      ],
+      "count": 196608,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.qkv.bias",
+      "shape": [
+        768
+      ],
+      "count": 768,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.output.weight",
+      "shape": [
+        256,
+        256
+      ],
+      "count": 65536,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.output.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_mlp.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_mlp.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.expand.weight",
+      "shape": [
+        1024,
+        256
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.expand.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.contract.weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.contract.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_attention.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_attention.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.qkv.weight",
+      "shape": [
+        768,
+        256
+      ],
+      "count": 196608,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.qkv.bias",
+      "shape": [
+        768
+      ],
+      "count": 768,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.output.weight",
+      "shape": [
+        256,
+        256
+      ],
+      "count": 65536,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.output.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_mlp.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_mlp.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.expand.weight",
+      "shape": [
+        1024,
+        256
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.expand.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.contract.weight",
+      "shape": [
+        256,
+        1024
+      ],
+      "count": 262144,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.contract.bias",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "final_norm.scale",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "final_norm.shift",
+      "shape": [
+        256
+      ],
+      "count": 256,
+      "trainable": true,
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,2740 @@
+{
+  "total": 302509056,
+  "trainable": 302509056,
+  "groups": {
+    "token_embedding": 66560,
+    "position_embedding": 131072,
+    "blocks": 302309376,
+    "final_norm": 2048
+  },
+  "tensors": [
+    {
+      "name": "token_embedding.weight",
+      "shape": [
+        65,
+        1024
+      ],
+      "count": 66560,
+      "trainable": true,
+      "aliases": [
+        "lm_head.weight"
+      ]
+    },
+    {
+      "name": "position_embedding.weight",
+      "shape": [
+        128,
+        1024
+      ],
+      "count": 131072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.0.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.1.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.2.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.3.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.4.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.5.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.6.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.7.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.8.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.9.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.10.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.11.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.12.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.13.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.14.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.15.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.16.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.17.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.18.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.19.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.20.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.21.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.22.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.norm_attention.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.norm_attention.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.attention.qkv.weight",
+      "shape": [
+        3072,
+        1024
+      ],
+      "count": 3145728,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.attention.qkv.bias",
+      "shape": [
+        3072
+      ],
+      "count": 3072,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.attention.output.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "count": 1048576,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.attention.output.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.norm_mlp.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.norm_mlp.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.expand.weight",
+      "shape": [
+        4096,
+        1024
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.expand.bias",
+      "shape": [
+        4096
+      ],
+      "count": 4096,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.contract.weight",
+      "shape": [
+        1024,
+        4096
+      ],
+      "count": 4194304,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "blocks.23.contract.bias",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "final_norm.scale",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    },
+    {
+      "name": "final_norm.shift",
+      "shape": [
+        1024
+      ],
+      "count": 1024,
+      "trainable": true,
+      "aliases": []
+    }
+  ]
+}

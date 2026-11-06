@@ -1,0 +1,34 @@
+{
+  "verified_at_beijing": "2026-11-06T17:08:42.781777+08:00",
+  "pdf_pages": 9,
+  "pdf_size_bytes": 338231,
+  "pdf_sha256": "8e811b26cec85401b92792d1713c27f0893f990231fbee080c48a7ec07e03e8b",
+  "required_results_and_sections_present": true,
+  "latex_log_without_warnings_or_overflow": true,
+  "all_fonts_embedded": true,
+  "all_15_experiment_checks_passed": true,
+  "semantic_tests_passed": 7,
+  "group_members": [
+    {
+      "name": "石皓文",
+      "student_id": "2233316022"
+    },
+    {
+      "name": "张恩瑞",
+      "student_id": "2244413862"
+    },
+    {
+      "name": "杜鹏宇",
+      "student_id": "2223210437"
+    },
+    {
+      "name": "许程",
+      "student_id": "2244313744"
+    }
+  ],
+  "body_starts_on_first_page": true,
+  "separate_cover_removed": true,
+  "section_titles_unique_and_numbering_checked": true,
+  "original_first_reference_removed": true,
+  "reference_count": 4
+}

@@ -1,0 +1,26 @@
+{
+  "attachment_checked": "编程作业二2026 (1).pdf",
+  "requirements_satisfied": true,
+  "archive": "/root/autodl-tmp/编程作业二_最终提交_20261028.zip",
+  "archive_sha256": "cc43341cb6492278645bcc15abbff0401981fb6773a23a08a7e924c82963c80e",
+  "archive_bytes": 334289,
+  "files": [
+    "README.md",
+    "requirements.txt",
+    "src/__init__.py",
+    "src/data.py",
+    "src/generate.py",
+    "src/large_demo.py",
+    "src/model.py",
+    "src/train.py",
+    "实验报告.pdf"
+  ],
+  "zip_integrity_checked": true,
+  "extracted_source_tests": "7 passed",
+  "report_pages": 9,
+  "manual_attention": true,
+  "manual_layernorm": true,
+  "small_model_training_and_loss": true,
+  "large_model_parameter_count": 302509056,
+  "large_model_inference_only": true
+}

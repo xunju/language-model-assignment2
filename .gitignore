@@ -1,0 +1,25 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# LaTeX build products
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/build_pass_*.log
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated preview material
+report/preview/
+
+# Local submission archives
+*.zip

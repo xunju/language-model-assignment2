@@ -1,0 +1,30 @@
+{
+  "code_prompts_and_comments_updated": true,
+  "syntax_check_passed": true,
+  "test_suite_passed_in_compatible_copy": true,
+  "submission_files": [
+    "README.md",
+    "requirements.txt",
+    "src/__init__.py",
+    "src/data.py",
+    "src/generate.py",
+    "src/large_demo.py",
+    "src/model.py",
+    "src/train.py",
+    "实验报告.pdf"
+  ],
+  "source_hashes": {
+    "README.md": "aa53d8cb385f0f85aaebcad0cb5653815d84b87c7523ef13c166a8717adcfcad",
+    "requirements.txt": "577e6e442b4119ee46413b9be84e7298e78df6ea9dde82f4197c31325d078eae",
+    "src/__init__.py": "357ce5274c20a0604369ae503ed86ee1e11d2e10cfebe61098c817bdad1bc45c",
+    "src/data.py": "ee748026c0981908c8ea81a3c27be3b41b7c5ce745deb9f2cb8a7a68071a4526",
+    "src/generate.py": "ce6ff62c3d2e22c6054cb6d7af89c821b957eec27b36ba4e237c164b4f93c7af",
+    "src/large_demo.py": "951773f507f2aa661e7ca0e6f754d4649138ffae1d7dd433b8d974045c2b964c",
+    "src/model.py": "0526d3f16e0cb90d6c2eef64925371633bddc874e56cc1a43284ff935879bf9e",
+    "src/train.py": "4cc2b2b26a922a7114761ef7ccdebbaadab1f0d94f316af584e6d2f4c6f0d1c8",
+    "实验报告.pdf": "8e811b26cec85401b92792d1713c27f0893f990231fbee080c48a7ec07e03e8b"
+  },
+  "archive_path": "/root/autodl-tmp/编程作业二_正式提交.zip",
+  "archive_sha256": "cc43341cb6492278645bcc15abbff0401981fb6773a23a08a7e924c82963c80e",
+  "archive_verified": true
+}

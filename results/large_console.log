@@ -1,0 +1,35 @@
+{
+  "config": {
+    "vocab_size": 65,
+    "context_length": 128,
+    "n_layers": 24,
+    "d_model": 1024,
+    "n_heads": 16,
+    "dropout": 0.0
+  },
+  "parameter_count": 302509056,
+  "formula_count": 302509056,
+  "torch_crosscheck_count": 302509056,
+  "relative_to_300M_percent": 0.8363520000000069,
+  "parameter_bytes_fp32": 1210036224,
+  "initialization_seed": 300,
+  "status": "RANDOM INITIALIZATION; NO TRAINING; INFERENCE PIPELINE DEMONSTRATION ONLY",
+  "probe_logits_shape": [
+    1,
+    128,
+    65
+  ],
+  "probe_next_token_loss": 4.2733154296875,
+  "uniform_reference_loss": 4.174387269895637,
+  "generation_seed": 301,
+  "prompt": "ROMEO:\n",
+  "new_tokens": 80,
+  "temperature": 1.0,
+  "top_k": null,
+  "text": "ROMEO:\nkA3PMw-x&w CaJEBXOLq.ky-fi.Kr!,,xPF:ZKCsJ,JOlSPakOZmA?S-UgzrrW,Nd:,!XK.rpk,D\n$L'",
+  "generation_seconds": 2.562430128455162,
+  "generation_tokens_per_second": 31.220363479034802,
+  "peak_cuda_allocated_bytes": 1851840512,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3090"
+}

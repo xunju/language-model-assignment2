@@ -1,0 +1,5 @@
+Python 3.10.8 (main, Nov 24 2022, 14:13:03) [GCC 11.2.0]
+torch==2.1.2+cu118
+numpy==1.26.4
+matplotlib==3.9.0
+pytest==8.3.5

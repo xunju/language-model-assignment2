@@ -1,0 +1,22 @@
+{
+  "verified_at_beijing": "2026-10-22T18:55:55.957788+08:00",
+  "checks": {
+    "data_sha256_matches": true,
+    "exactly_2000_consecutive_steps": true,
+    "all_training_losses_and_gradients_finite": true,
+    "evaluation_steps_0_to_2000_every_100": true,
+    "summary_matches_final_csv": true,
+    "train_and_validation_losses_decrease": true,
+    "small_parameter_formula": true,
+    "large_three_counts_agree": true,
+    "large_within_one_percent_of_300M": true,
+    "three_small_samples_each_240_new_characters": true,
+    "large_sample_80_new_characters": true,
+    "model_avoids_prohibited_high_level_layers": true,
+    "large_demo_has_no_backward_or_optimizer": true,
+    "checkpoint_reproduces_sample_one_exactly": true,
+    "all_seven_semantic_tests_pass": true
+  },
+  "all_passed": true,
+  "checkpoint_sha256": "96db17ba1b1c87b22c0765f1fc3b0fe7cc6a272063c12242df61c73834e75745"
+}

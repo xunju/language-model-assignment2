@@ -1,0 +1,37 @@
+=== Prompt ROMEO:
+; seed=2026; temperature=0.8; top_k=20 ===
+ROMEO:
+I that all you have meet thee, and for that me it.
+
+BENVOLIO:
+Yet such are ince?
+
+CAPULET:
+But it me die! whose of? Henry, and my lady.
+
+DUKE VINCENTIO:
+I tell the laim one eyes.
+
+First Citizen:
+And them to seep him the rest are as that I s
+
+=== Prompt First Citizen:
+; seed=2027; temperature=0.8; top_k=20 ===
+First Citizen:
+He stong for and will the faul to bread; but he speak
+The was the desend of his sound, friends take should the with traight,
+Thou orthan up name the ight tut so upon the heaven;
+And have stender far of siting of the die.
+
+HENRY BOLINGBROKE:
+
+=== Prompt To be, or not to be; seed=2028; temperature=0.8; top_k=20 ===
+To be, or not to be in the more woe,
+Did him trust upon their cave was himself.
+
+ESCALUS:
+That thou did most be seed me bark upon the bid with ford,
+A batter honour's down was a was and terre is roath.
+
+CATESBY:
+A crown'd and of my news bear charish, we canno
